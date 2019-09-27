@@ -1,0 +1,14 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: spring-service1  # 服务名称
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: compute-server  # 注册中心的服务ID
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
