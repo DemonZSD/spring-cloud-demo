@@ -2,7 +2,7 @@ server:
   port: 2222
 spring:
   application:
-    name: spring-service1  # 注册到注册中心的服务名称
+    name: compute-service1  # 注册到注册中心的服务名称
   cloud:
     config:
       discovery:
